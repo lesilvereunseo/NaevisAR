@@ -1,0 +1,851 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.41f1 (0f988161febf) revision 1022081'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ko' Physical Memory: 65303 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\unity_Kocca\2022.3.41f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/git/NaevisAR/NaevisAR
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55163
+Successfully changed project path to: D:/git/NaevisAR/NaevisAR
+D:/git/NaevisAR/NaevisAR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [52964]  Target information:
+
+Player connection [52964]  * "[IP] 172.30.1.98 [Port] 0 [Flags] 2 [Guid] 1180226501 [EditorId] 1180226501 [Version] 1048832 [Id] WindowsEditor(7,이은서데스크탸압) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [52964] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [52964] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 5.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.41f1 (0f988161febf)
+[Subsystems] Discovering subsystems at path C:/Program Files/unity_Kocca/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/git/NaevisAR/NaevisAR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     11996 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/unity_Kocca/2022.3.41f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/unity_Kocca/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/unity_Kocca/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/unity_Kocca/2022.3.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/unity_Kocca/2022.3.41f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/unity_Kocca/2022.3.41f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007403 seconds.
+- Loaded All Assemblies, in  0.231 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.161 seconds
+Domain Reload Profiling: 392ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (86ms)
+		LoadAssemblies (75ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (83ms)
+				TypeCache.ScanAssembly (75ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (162ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (137ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.444 seconds
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.850 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (214ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (851ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.1 MB). Loaded Objects now: 4895.
+Memory consumption went from 153.8 MB to 152.7 MB.
+Total: 3.658900 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.056100 ms MarkObjects: 3.097400 ms  DeleteObjects: 0.331300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 887620.969227 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Wall_Curtain_001.mat
+  artifactKey: Guid(49201092c21bdc840b4bcf240b5f95a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Wall_Curtain_001.mat using Guid(49201092c21bdc840b4bcf240b5f95a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8def87540b6feb235928251010f62dc1') in 0.074617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Floor_Television_001.mat
+  artifactKey: Guid(4dc3453e0d356ba4da07546e237a7f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Floor_Television_001.mat using Guid(4dc3453e0d356ba4da07546e237a7f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '421f5bd500972db780e426ae240b013c') in 0.016147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/T_CH_NavisSD_Hair_Color_Mask.png
+  artifactKey: Guid(8cc51aeb71ce96248bef246c8505b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/T_CH_NavisSD_Hair_Color_Mask.png using Guid(8cc51aeb71ce96248bef246c8505b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0166c536a0b73f13972a891fefeeb8cd') in 0.045791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Book_003.mat
+  artifactKey: Guid(026c47ea8e47ece469c496c5f1c5664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Book_003.mat using Guid(026c47ea8e47ece469c496c5f1c5664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bd48b2477549a71cd35bf64c5947830a') in 0.013132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Wall_Door_001.mat
+  artifactKey: Guid(c8c2f47b6c7f6e94d8e8e37d31a371fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Wall_Door_001.mat using Guid(c8c2f47b6c7f6e94d8e8e37d31a371fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd590cd9bdddc8a05606cbf7401a13ce1') in 0.013938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/T_CH_NavisSD_Hair_Space_DIFF.png
+  artifactKey: Guid(c433b69a71b9c954a9c1a3a3fe5185fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/T_CH_NavisSD_Hair_Space_DIFF.png using Guid(c433b69a71b9c954a9c1a3a3fe5185fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c86d34c2482ce0300b4649e0e63a7e32') in 0.026503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_OneRoom.mat
+  artifactKey: Guid(b162fbfc5cbc34b4781688c998975540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_OneRoom.mat using Guid(b162fbfc5cbc34b4781688c998975540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '97f72c6aff889077de5a6cabfed23e09') in 0.016777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Kettle_001.mat
+  artifactKey: Guid(ac1c2b88f07387644b568ff06ca18b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Kettle_001.mat using Guid(ac1c2b88f07387644b568ff06ca18b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cd24797be1bf82a0b46f1be09a10361d') in 0.016130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Particle_Star.mat
+  artifactKey: Guid(6d0f1cf9a799b804d978122861b405d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Particle_Star.mat using Guid(6d0f1cf9a799b804d978122861b405d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5608524214fa154738e9d2b4c4aeb191') in 0.010996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Pillow_001.mat
+  artifactKey: Guid(e493c16a4525fb64eb91959853ffea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Pillow_001.mat using Guid(e493c16a4525fb64eb91959853ffea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '95afbd577b3230ccdabfcf78e81804e5') in 0.014881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Bottle_001.mat
+  artifactKey: Guid(6f3df04ee1bea7e40987e8735cc2ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Bottle_001.mat using Guid(6f3df04ee1bea7e40987e8735cc2ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4fb31ba0752afd2020c62ebce2e5ef96') in 0.011330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Wall_Clock_001.mat
+  artifactKey: Guid(6b894b3dd6eba0b4999d6e00a77a5509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Wall_Clock_001.mat using Guid(6b894b3dd6eba0b4999d6e00a77a5509) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd9d166606e18aa5d4ccbefa39668e6e8') in 0.015144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Ceiling_Lighting_002.mat
+  artifactKey: Guid(8754a8aa76d6b044fbb3b329f25e0560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Ceiling_Lighting_002.mat using Guid(8754a8aa76d6b044fbb3b329f25e0560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dee63d7cf154e7bfd565d4d545c15ba5') in 0.019100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Chloe_baseModel_BaseColor_1001.png
+  artifactKey: Guid(b1c81552070df2a44b6a5424fd2d2642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Chloe_baseModel_BaseColor_1001.png using Guid(b1c81552070df2a44b6a5424fd2d2642) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '442f9a4821f8f4f28b94cc448e0a1c35') in 0.024418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Floor_Rug_001.mat
+  artifactKey: Guid(36bd1c3cf37d9734d97a5c9b70a1080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Floor_Rug_001.mat using Guid(36bd1c3cf37d9734d97a5c9b70a1080b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '56282eb8845a31e68c95cec28d3e3813') in 0.012458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Ceiling_Lighting_003.mat
+  artifactKey: Guid(8b8aed8a14353a54a960cee9aeadc812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Furniture_Ceiling_Lighting_003.mat using Guid(8b8aed8a14353a54a960cee9aeadc812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '552645bbf5a978215306944cb7fe9aa4') in 0.015049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Cup_001.mat
+  artifactKey: Guid(dbb34e7bd74be9b40ac3e7bba9b9de69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Cup_001.mat using Guid(dbb34e7bd74be9b40ac3e7bba9b9de69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ba95ec146101208d08d70bec9ef6cd2a') in 0.014094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Scenes/Global Volume Profile.asset
+  artifactKey: Guid(ed317a38ef209104488f619d852267ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Scenes/Global Volume Profile.asset using Guid(ed317a38ef209104488f619d852267ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6187190a13c2b4e531177f600a8789b2') in 0.003582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Plant_003.mat
+  artifactKey: Guid(a38dd43a624377844b7b11affa487675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/Prop_Floor_Plant_003.mat using Guid(a38dd43a624377844b7b11affa487675) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9b0f0d27b032b7a1fb9ad3c28c253f9e') in 0.014744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/picture_pink.png
+  artifactKey: Guid(05f25b28af87af149aa54bdde550bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/picture_pink.png using Guid(05f25b28af87af149aa54bdde550bc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cfc5cffaaf6bb9a25a62d99c5fb36eda') in 0.025841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.371131 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Ceiling_Lighting_001_Albedo.png
+  artifactKey: Guid(02fb9d634ec1d504b88676c54e0843f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Ceiling_Lighting_001_Albedo.png using Guid(02fb9d634ec1d504b88676c54e0843f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ed3d3fedcc63ffaa534d2fe8e976c398') in 0.068858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Book_003_Albedo.png
+  artifactKey: Guid(b431d7dd7e3cc6345bc8a8aaf9f8f086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Book_003_Albedo.png using Guid(b431d7dd7e3cc6345bc8a8aaf9f8f086) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1fd69dca339cb061c5b9c18731568b9b') in 0.042508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Sculpture_001_Albedo.png
+  artifactKey: Guid(63b1dcc94994b3f42b865244d501817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Sculpture_001_Albedo.png using Guid(63b1dcc94994b3f42b865244d501817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1a6d19c9f1981a6a16dc7796a301b4be') in 0.033312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/room_picl.png
+  artifactKey: Guid(bdab2695600652842879fbcea63756fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/room_picl.png using Guid(bdab2695600652842879fbcea63756fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8fecf3546bfb91e46dc389456d8fc36d') in 0.031645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Wall_Window_001_Albedo.png
+  artifactKey: Guid(d8a7a5cf88bee5b4fbac2c9a20e0a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Wall_Window_001_Albedo.png using Guid(d8a7a5cf88bee5b4fbac2c9a20e0a742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b2ded2313d3ab93a6c64f6ba574e143c') in 0.036982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Wall_Door_001_Albedo.png
+  artifactKey: Guid(01fcad53dc5c72044a069ae6c15c96c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Wall_Door_001_Albedo.png using Guid(01fcad53dc5c72044a069ae6c15c96c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b0a804f4e44bdc79e71c6c5e4f59bc04') in 0.055946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Wall_Clock_001_Albedo.png
+  artifactKey: Guid(565ae6230f637394ba7093e40a1fd45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Wall_Clock_001_Albedo.png using Guid(565ae6230f637394ba7093e40a1fd45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b3b5d156976484e3a79e79f0f65935bc') in 0.035409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Floor_Bed_Albedo.png
+  artifactKey: Guid(72074ec2c8a70224584024c3270e3649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Floor_Bed_Albedo.png using Guid(72074ec2c8a70224584024c3270e3649) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2e3203b5da19bac189de8623412c19fd') in 0.045449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Plant_002_Albedo.png
+  artifactKey: Guid(6ca909b319ea93d4ca14b78700a4652f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Plant_002_Albedo.png using Guid(6ca909b319ea93d4ca14b78700a4652f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '870d5442bf8b64d9cb99e57dc6af6b78') in 0.034608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Ceiling_LightMesh_001.png
+  artifactKey: Guid(2e06b1b69074a1f49b97a7ad7820713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Ceiling_LightMesh_001.png using Guid(2e06b1b69074a1f49b97a7ad7820713f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cbdf1c334329cfb9958b0e11cd37698b') in 0.023306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Floor_Chair_001_Albedo.png
+  artifactKey: Guid(1a1f66f5d048d8545bc8ae0ea4250b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Floor_Chair_001_Albedo.png using Guid(1a1f66f5d048d8545bc8ae0ea4250b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '701fef92b886139c07031a907cc79495') in 0.019987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Book_002_Albedo.png
+  artifactKey: Guid(0ceca97e945b9b0449965461d7a4e7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Book_002_Albedo.png using Guid(0ceca97e945b9b0449965461d7a4e7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8612bea20fc0153a4e660a4541ac1f32') in 0.021149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Curtain_Albedo.png
+  artifactKey: Guid(9835bc71aedec834ebbf730d7205b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Curtain_Albedo.png using Guid(9835bc71aedec834ebbf730d7205b410) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4813bf57f0dcb7696b1c84385dca4251') in 0.026485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Plant_003_Albedo.png
+  artifactKey: Guid(825c20fee7063c94fa4c3258b5e4cab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Plant_003_Albedo.png using Guid(825c20fee7063c94fa4c3258b5e4cab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c87ea5b93225bb70140390bcf06049dd') in 0.024657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/room_picl2.png
+  artifactKey: Guid(2128e44a90364f04eb2d8fb1ced457bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/room_picl2.png using Guid(2128e44a90364f04eb2d8fb1ced457bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dd29c96c1c775b83e5be33f90130c9d4') in 0.022049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Plant_001_Albedo.png
+  artifactKey: Guid(25ee855c5a7f62146a0bad694dc8ccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Prop_Floor_Plant_001_Albedo.png using Guid(25ee855c5a7f62146a0bad694dc8ccae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '03eee6fa94994ad589b29cdd869f4b95') in 0.028336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Ceiling_Lighting_002_Albedo.png
+  artifactKey: Guid(60d90634cdf677b4393f00843ec6f024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Ceiling_Lighting_002_Albedo.png using Guid(60d90634cdf677b4393f00843ec6f024) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '100c751a43cd512d698562caad6baee2') in 0.017382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Ceiling_Lighting_003_Albedo.png
+  artifactKey: Guid(12dcd37850fac354e9935425901601fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Textures/Furniture_Ceiling_Lighting_003_Albedo.png using Guid(12dcd37850fac354e9935425901601fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b025d56bfd41152c56f88057da645436') in 0.013474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.901574 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/Particle_Star.prefab
+  artifactKey: Guid(ab04e4ef01bb4004ebadd000953baebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/Particle_Star.prefab using Guid(ab04e4ef01bb4004ebadd000953baebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '78697e7492e3fc31df4babb767a13324') in 0.019544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Floor_Table_001.prefab
+  artifactKey: Guid(927810cd5a5ae584abff926b865d003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Floor_Table_001.prefab using Guid(927810cd5a5ae584abff926b865d003a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0aceffbfc33a736e0c7f9f3eed219efb') in 0.023852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Wall_Frame_001.prefab
+  artifactKey: Guid(9221a34e924166f4ba9772928afb5546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Wall_Frame_001.prefab using Guid(9221a34e924166f4ba9772928afb5546) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '10358d291cfaf0a693e259edb51baca9') in 0.015536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Kettle_001.prefab
+  artifactKey: Guid(ce779c9f2374b9b47b05f16c8885761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Kettle_001.prefab using Guid(ce779c9f2374b9b47b05f16c8885761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'eb46a93cd57db44641b192fb9f8f17cb') in 0.011873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Book_002.prefab
+  artifactKey: Guid(48c0c413c32429d4da9d14f5e7e5709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Book_002.prefab using Guid(48c0c413c32429d4da9d14f5e7e5709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1a459f8680abadcedf2afb93dce0ca23') in 0.095492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 157
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Pillow_001.prefab
+  artifactKey: Guid(50410932879faef48a5002dab5ad68b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Pillow_001.prefab using Guid(50410932879faef48a5002dab5ad68b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2bbd56218f6e81acf81ef4a6a58523a8') in 0.021667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Ceiling_Lighting_003.prefab
+  artifactKey: Guid(cf7dfa7734918db4589345dafb237fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Ceiling_Lighting_003.prefab using Guid(cf7dfa7734918db4589345dafb237fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2ae334cd6d1665e2523f7f968526b883') in 0.023262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Ceiling_Lighting_001.prefab
+  artifactKey: Guid(23cd3eed483a4a2499fb7926994c6c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Ceiling_Lighting_001.prefab using Guid(23cd3eed483a4a2499fb7926994c6c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '63ebf8cc7d0a9a831b5195a14ca1aab4') in 0.016514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Floor_Television_001.prefab
+  artifactKey: Guid(93a4fc07b867f5548a9ea712f810d1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Floor_Television_001.prefab using Guid(93a4fc07b867f5548a9ea712f810d1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f502e4b979450f1404a29ad19b187e6c') in 0.017544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Bottle_001.prefab
+  artifactKey: Guid(9fc0b03dc936f0f49a3ff01869db3673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Bottle_001.prefab using Guid(9fc0b03dc936f0f49a3ff01869db3673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'cf716e2fa5c85ba272d084023ec127b2') in 0.013536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_OneRoom_1.prefab
+  artifactKey: Guid(b201f88d6c2c66b4ba8f40fd735d553d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_OneRoom_1.prefab using Guid(b201f88d6c2c66b4ba8f40fd735d553d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5b60cd3878ddd86c6a45a517a3e9f70a') in 0.032301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Wall_Window_002.prefab
+  artifactKey: Guid(f4bc4c31fe9727946a2fd62b1c046fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Wall_Window_002.prefab using Guid(f4bc4c31fe9727946a2fd62b1c046fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c9aeeec1f2e79a8137569ad7127296a8') in 0.028215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Plant_002.prefab
+  artifactKey: Guid(eb8d9b6f89973b44ebc1275fae552ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Prop_Floor_Plant_002.prefab using Guid(eb8d9b6f89973b44ebc1275fae552ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '509564ac581d5325254cf391a00690ed') in 0.018414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Wall_Door_001.prefab
+  artifactKey: Guid(1cf90c2ed806f5a409b51e992e5fff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Wall_Door_001.prefab using Guid(1cf90c2ed806f5a409b51e992e5fff85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3c3c7a3034c6a6be1ac604b2431369ee') in 0.026791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Wall_Window_001.prefab
+  artifactKey: Guid(54b6928043701f6458f6dafbcaf63e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Prefabs/UModeler_Furniture_Wall_Window_001.prefab using Guid(54b6928043701f6458f6dafbcaf63e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '85beb98f68d6205f318d287575325475') in 0.025527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 48.206337 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Prefabs/ARPointCloud.prefab
+  artifactKey: Guid(2a91e1f16d3bef84eb6c25e4c6a63fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Prefabs/ARPointCloud.prefab using Guid(2a91e1f16d3bef84eb6c25e4c6a63fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1708bd4a6da9cba79c9c96f69fe90a6d') in 0.034148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Prefabs/DebugLineRenderer.prefab
+  artifactKey: Guid(6a8d857d8706540509e4fcd02ea92f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Prefabs/DebugLineRenderer.prefab using Guid(6a8d857d8706540509e4fcd02ea92f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b71327c29ae0a1cba4dc0732f963ba66') in 0.023592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8affac9a7688b3a558a4286a240e0452') in 0.002645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Prefabs/OriginTransform.prefab
+  artifactKey: Guid(78be84f5d3a3c41f9ab0093b3f712a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Prefabs/OriginTransform.prefab using Guid(78be84f5d3a3c41f9ab0093b3f712a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ae46a7f5afd12643caa535c0c469c630') in 0.028767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 2.321651 seconds.
+  path: Packages/com.unity.xr.arfoundation/Assets/Materials/DebugPlane.mat
+  artifactKey: Guid(f1a110d32af21aa4d872c707dfcc6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.arfoundation/Assets/Materials/DebugPlane.mat using Guid(f1a110d32af21aa4d872c707dfcc6043) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd2deb9c555581dea6149399c36b4feb5') in 0.112055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30752.414306 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/patterned_brick_wall_03_disp_4k.png
+  artifactKey: Guid(d643a552812a6254296105b26a4553d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/patterned_brick_wall_03_disp_4k.png using Guid(d643a552812a6254296105b26a4553d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '92c272155b14ce41fa266b25aba2a87a') in 0.395691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.529517 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/denim_fabric_disp_2k.png
+  artifactKey: Guid(af74c1c091f8a1e4a928cadd747ad89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/denim_fabric_disp_2k.png using Guid(af74c1c091f8a1e4a928cadd747ad89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2ed8ba691b8cafae82f4e66003100da1') in 0.067082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/denim_fabric_rough_2k.jpg
+  artifactKey: Guid(18af4e9d6a673b94c98b8a91cf5cbe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modeling/UModelerX_MonoBeigeRoom_URP_Editable/Materials/denim_fabric_rough_2k.jpg using Guid(18af4e9d6a673b94c98b8a91cf5cbe95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'da9de91e0c60c2189fbab810b01da17c') in 0.058549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
